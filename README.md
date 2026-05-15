@@ -108,6 +108,8 @@ src/
 
 ## Project Demo
 
+**Live app:** [live-weather-m84l.vercel.app](https://live-weather-m84l.vercel.app/)
+
 ### Home — search for a city
 
 ![Home screen — city search form](./public/Screenshot1.png)
