@@ -1,0 +1,87 @@
+.home-card {
+  border: none;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
+  background: linear-gradient(145deg, #1e3a5f 0%, #2563eb 45%, #38bdf8 100%);
+  color: #f8fafc;
+  padding: 2rem 1.75rem 1.75rem;
+}
+
+.home-card__icon {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+.home-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.35rem;
+}
+
+.home-card__subtitle {
+  font-size: 0.95rem;
+  opacity: 0.88;
+  margin: 0 0 1.5rem;
+}
+
+.home-card__form {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+
+.home-card__label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.home-card__input {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: none !important;
+  border-radius: 0.65rem !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 1rem;
+  color: #0f172a !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+.home-card__input::placeholder {
+  color: #64748b;
+}
+
+.home-card__input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35) !important;
+}
+
+.home-card__btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 0.65rem;
+  background: #f8fafc;
+  color: #1e3a5f;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-card__btn:hover {
+  background: #ffffff;
+  color: #1e3a5f;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.2);
+}
+
+.home-card__btn:active {
+  transform: translateY(0);
+}

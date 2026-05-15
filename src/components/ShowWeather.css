@@ -1,0 +1,90 @@
+.weather-card {
+  border: none;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
+  background: linear-gradient(145deg, #1e3a5f 0%, #2563eb 45%, #38bdf8 100%);
+  color: #f8fafc;
+}
+
+.weather-card__header {
+  padding: 1.75rem 1.75rem 0.5rem;
+  text-align: center;
+}
+
+.weather-card__city {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.weather-card__country {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.weather-card__hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.weather-card__icon {
+  width: 96px;
+  height: 96px;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
+}
+
+.weather-card__temp {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-card__temp span {
+  font-size: 2rem;
+  font-weight: 400;
+  vertical-align: super;
+}
+
+.weather-card__description {
+  text-align: center;
+  font-size: 1.15rem;
+  text-transform: capitalize;
+  margin: 0 0 1.25rem;
+  opacity: 0.95;
+}
+
+.weather-card__body {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  padding: 1.25rem 1.5rem 1.5rem;
+  margin: 0 1rem 1.25rem;
+  border-radius: 1rem;
+}
+
+.weather-stat {
+  text-align: center;
+  padding: 0.65rem 0.25rem;
+}
+
+.weather-stat__label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+  margin-bottom: 0.25rem;
+}
+
+.weather-stat__value {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
