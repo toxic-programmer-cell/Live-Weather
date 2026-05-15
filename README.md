@@ -106,6 +106,16 @@ src/
 | ------------------- | ------------------------------ |
 | `REACT_APP_API_KEY` | Your OpenWeatherMap API key    |
 
+## Project Demo
+
+### Home — search for a city
+
+![Home screen — city search form](./public/Screenshot1.png)
+
+### Weather results
+
+![Weather results — live conditions for a city](./public/Screenshot2.png)
+
 ## License
 
 This project is open source and available for learning and portfolio use.
